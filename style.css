@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/* Personagem */
+.Naruto{
+    width: 10em;
+    position: absolute;
+    bottom: 0;
+    animation: Corrida_ninja 1s infinite;
+}
+/* Cenário */
+/* Chão */
+.Corpo_Projeto{
+    border: 1px solid rgb(0, 0, 0);
+    height: 100vh;
+    border-bottom: 35px solid rgb(77, 77, 77);
+}
+/* Obstáculo */
+/* Inimigo */
+/* Arma */
+@keyframes Corrida_ninja {
+0%{
+    margin-left: 0;
+}
+100%{
+    margin-left: 200vh;
+}
+}
